@@ -5,7 +5,11 @@ const app = express();
 const PORT = 3000;
 const SECRET_KEY = "your_secret_key";
 
+
+
 app.use(express.json());
+
+
 
 app.post("/login", (req, res) => {
     const { username, password } =
