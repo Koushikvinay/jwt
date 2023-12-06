@@ -1,0 +1,10 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "main": "app.ja",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
